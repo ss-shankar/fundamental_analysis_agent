@@ -1,2 +1,3 @@
-def main() -> None:
-    print("Hello from fundamental-analysis-agent!")
+from fundamental_analysis_agent.main import main
+
+__all__ = ["main"]

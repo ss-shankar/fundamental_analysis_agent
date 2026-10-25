@@ -7,7 +7,10 @@ authors = [
     { name = "sivasankar-TEC", email = "sivasankar.s@energycompany.in" }
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "botocore[crt]>=1.43.118",
+    "strands-agents>=1.62.0",
+]
 
 [project.scripts]
 fundamental-analysis-agent = "fundamental_analysis_agent:main"
